@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Data: raw API cache and warehouse
+data/
+erg_cache/
+erg_explore_out/
+*.duckdb
+*.duckdb.wal
+
+# OS
+.DS_Store
+Thumbs.db
