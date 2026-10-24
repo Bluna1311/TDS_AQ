@@ -15,6 +15,7 @@ erg_cache/
 erg_explore_out/
 *.duckdb
 *.duckdb.wal
+explore/
 
 # OS
 .DS_Store
