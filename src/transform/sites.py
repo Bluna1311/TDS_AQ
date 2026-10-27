@@ -20,7 +20,6 @@ def parse_api_datetime(text):
 
 
 def parse_coordinate(text):
-    """'51.5150461674013' -> 51.5150461674013; '' -> None."""
     if not text:
         return None
     return float(text)
