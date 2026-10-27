@@ -13,7 +13,6 @@ TIMESTAMP_FORMAT = "%Y-%m-%dT%H%M%SZ"
 
 
 def parse_api_datetime(text):
-    """'2006-09-10 00:00:00' -> datetime; '' -> None (no date)."""
     if not text:
         return None
     return datetime.strptime(text, "%Y-%m-%d %H:%M:%S")
