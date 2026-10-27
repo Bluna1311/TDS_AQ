@@ -10,7 +10,7 @@ venv/
 .vscode/
 
 # Data: raw API cache and warehouse
-data/
+
 erg_cache/
 erg_explore_out/
 *.duckdb
