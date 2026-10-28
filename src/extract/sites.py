@@ -3,9 +3,12 @@ from pathlib import Path
 
 from src.extract.api import TIMESTAMP_FORMAT, fetch
 
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SITES_PATH = "/Information/MonitoringSiteSpecies/GroupName=London/Json"
-RAW_DIR = Path("data/raw/sites")
+RAW_DIR = PROJECT_ROOT / "data" / "raw" / "sites"
 SITES_MAX_AGE = timedelta(days=1)
+
 
 
 def latest_fetch(raw_dir):

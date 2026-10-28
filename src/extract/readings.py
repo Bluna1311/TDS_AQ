@@ -3,9 +3,9 @@ from pathlib import Path
 
 from src.extract.api import TIMESTAMP_FORMAT, fetch
 
-RAW_DIR = Path("data/raw/readings")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+RAW_DIR = PROJECT_ROOT / "data" / "raw" / "readings"
 RECENT_MAX_AGE = timedelta(days=1)
-
 
 def raw_filename(site_code, start, end, fetched_at):
     """e.g. TH4_2023-01-01_2024-01-01_fetched_2026-10-24T020000Z.json"""
