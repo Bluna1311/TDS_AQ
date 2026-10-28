@@ -5,7 +5,8 @@ import pandas as pd
 
 from src.extract.readings import RAW_DIR, fetched_at_from_path
 
-STAGED_DIR = Path("data/staged/readings")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+STAGED_DIR = PROJECT_ROOT / "data" / "staged" / "readings"
 READING_KEY = ["site_code", "species_code", "measured_at_utc"]
 
 
