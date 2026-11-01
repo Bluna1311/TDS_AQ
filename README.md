@@ -26,7 +26,7 @@ The headline measure is **Share Moderate+**: the share of station-hours at index
 
 1. **Which hours are worst?** Day of week × hour of day.
 2. **Does the season matter?** Hour of day, by season.
-3. **Is it getting better?** Share of stations with a Moderate+ day, by month.
+3. **Is it getting better?** Share of stations with a Moderate+ day, by month. 
 4. **Which boroughs are worst?**
 5. **What kind of place is worst?** Roadside, kerbside, background, suburban, industrial.
 6. **Which pollutant drives it?** NO2, O3, PM10, PM2.5.
