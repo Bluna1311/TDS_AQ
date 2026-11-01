@@ -122,6 +122,7 @@ Both are safe to rerun: raw files are reused, and the warehouse load deletes and
 - Mart & tableau dashboard
 -  scraping and generating health index file from official site
 -  investigation of final data
+-  -production of system flow diagram & readme
 
 ## Next steps
 
