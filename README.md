@@ -116,6 +116,13 @@ Both are safe to rerun: raw files are reused, and the warehouse load deletes and
 - **The daily index can't see NO2's main harm.** NO2 reaches Moderate only at 201 µg/m³ in a single hour; its health effect is long-term exposure, measured against an annual limit.
 - **The index is reconstructed** from raw readings using the published rules, not taken from ERG's own published bands.
 
+## Where AI helped
+- exploratory analysis on data for file structure and staging logic
+- Cleaning & documenting code
+- Mart & tableau dashboard
+-  scraping and generating health index file from official site
+-  investigation of final data
+
 ## Next steps
 
 - Compare conditions on major outdoor event days with a typical day.
