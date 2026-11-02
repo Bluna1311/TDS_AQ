@@ -126,8 +126,7 @@ Both are safe to rerun: raw files are reused, and the warehouse load deletes and
 - production of system flow diagram & README
 
 ## Next steps
-
-- Compare conditions on major outdoor event days with a typical day.
+- move central paths into a config file
 - Count stations as "reporting" only if they sent data in the last 30 days.
 - Store the index limits as a versioned table, so a future change to the bands can be applied to history.
 
