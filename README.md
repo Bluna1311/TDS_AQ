@@ -117,12 +117,13 @@ Both are safe to rerun: raw files are reused, and the warehouse load deletes and
 - **The index is reconstructed** from raw readings using the published rules, not taken from ERG's own published bands.
 
 ## Where AI helped
+- Idea generation 
 - exploratory analysis on data for file structure and staging logic
 - Cleaning & documenting code
 - Mart & tableau dashboard
--  scraping and generating health index file from official site
--  investigation of final data
--  -production of system flow diagram & readme
+- scraping and generating health index file from official site
+- investigation of final data
+- production of system flow diagram & README
 
 ## Next steps
 
